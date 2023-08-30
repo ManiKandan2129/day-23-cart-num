@@ -1,0 +1,44 @@
+.app-card{
+    padding: 0;
+    margin: 20px;
+    transition: 0.2s;
+}
+.card-title{
+    font-weight: bold;
+}
+.rating{
+    color: gold;
+    height: 30px;
+    
+}
+.card-btn{
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.price{
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+}
+.card-img{
+    position: relative;
+}
+.img-txt{
+    position: absolute;
+    right: 8px;
+    top: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 1px 5px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0px 8px;
+}
+.img-txt:empty{
+    background-color: transparent;
+}
+.app-card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}

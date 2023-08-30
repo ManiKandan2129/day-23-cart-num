@@ -1,0 +1,12 @@
+.cart-num{
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    padding: 0px 7px;
+    
+  }
+  .cart-btn{
+    display: flex;
+    gap: 8px;
+  }
+  
